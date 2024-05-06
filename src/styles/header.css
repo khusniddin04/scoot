@@ -53,7 +53,7 @@
   font-weight: 700;
   line-height: 25px;
   padding: 14px 39px;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 3px solid #fcb72b;
   transition: 0.5s;
 }
@@ -160,10 +160,10 @@
   color: #fcb72b;
   font-weight: 700;
   line-height: 25px;
-  padding: 14px 39px;
-  background-color: #ffffff;
+  padding: 12px 39px;
+  background-color: transparent;
   border: 3px solid #fcb72b;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 /* Responsive */
