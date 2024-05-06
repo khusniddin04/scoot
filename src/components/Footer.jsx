@@ -30,7 +30,7 @@ function Footer() {
                         <ul>
                            <li><NavLink className="footer_title" to="/about">About</NavLink></li> 
                            <li><NavLink className="footer_title" to="/location">Locations</NavLink></li> 
-                           <li><NavLink  className="footer_title"to="/career">Careers</NavLink></li> 
+                           <li><NavLink  className="footer_title"to="/careers">Careers</NavLink></li> 
                         </ul>     
                     </nav>
                 </div>
