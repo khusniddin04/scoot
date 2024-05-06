@@ -1,0 +1,250 @@
+.homeHero {
+  padding: 153px 0 152px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeHero h1 {
+  width: 500px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.homeHero__content {
+  position: relative;
+  margin-left: 95px;
+}
+.homeHero__content p {
+  width: 405px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.homeHero__content button {
+  width: 180px;
+  height: 53px;
+  background: #fcb72b;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.homeHero__content button:hover {
+  width: 180px;
+  height: 53px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fcb72b;
+  border: 3px solid #fcb72b;
+}
+.homeHero__line {
+  position: absolute;
+  left: -300px;
+  top: 43px;
+}
+
+.homeHero__arrow {
+  position: absolute;
+  top: 43px;
+  right: 80px;
+}
+.homeHero_rounds {
+  position: absolute;
+  bottom: 15px;
+  right: -200px;
+}
+@media (max-width: 1622px) {
+  .homeHero__arrow {
+    width: 440px;
+  }
+  .homeHero__line {
+    width: 190px;
+  }
+  .homeHero_rounds {
+    position: absolute;
+    bottom: 15px;
+    right: -140px;
+  }
+  .homeHero__arrow {
+    position: absolute;
+    top: 43px;
+    right: 110px;
+  }
+}
+@media (max-width: 1500px) {
+  .homeHero__line {
+    position: absolute;
+    left: -234px;
+    top: 43px;
+  }
+  .homeHero__arrow {
+    position: absolute;
+    top: 43px;
+    right: 135px;
+  }
+  .homeHero_rounds {
+    position: absolute;
+    bottom: 15px;
+    right: -110px;
+  }
+}
+@media (max-width: 1400px) {
+  .homeHero__arrow {
+    width: 390px;
+    position: absolute;
+    top: 41px;
+    right: 190px;
+  }
+  .homeHero_rounds {
+    height: 60px;
+    position: absolute;
+    bottom: 28px;
+    right: -57px;
+  }
+  .homeHero__line {
+    width: 165px;
+    position: absolute;
+    left: -186px;
+    top: 41px;
+  }
+}
+@media(max-width: 1300px) {
+    .homeHero__content {
+        position: relative;
+        margin-left: 55px;
+    }
+    .homeHero__arrow {
+        width: 390px;
+        position: absolute;
+        top: 41px;
+        right: 235px;
+    }
+    .homeHero_rounds {
+        height: 60px;
+        position: absolute;
+        bottom: 28px;
+        right: 0px;
+    }
+    .homeHero_rounds {
+        height: 60px;
+        position: absolute;
+        bottom: 28px;
+        right: 0px;
+    }
+    .homeHero__content {
+        position: relative;
+        margin-left: 0px;
+    }
+    .homeHero_rounds {
+        height: 60px;
+        position: absolute;
+        bottom: 28px;
+        right: -15px;
+    }
+}
+@media(max-width: 1200px) {
+    .homeHero__line {
+        display: none;
+    }
+    .homeHero__arrow {
+        width: 390px;
+        position: absolute;
+        top: 41px;
+        right: 212px;
+    }
+}
+@media(max-width: 1100px) {
+    .homeHero {
+        padding:137px 0  217px;
+    }
+    .homeHero h1 {
+        width: 500px;
+        margin:0 auto 40px;
+        text-align: center;
+    }
+    .homeHero__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeHero__content p {
+        width: 573px;
+        text-align: center;
+    }
+    .homeHero__arrow {
+        width: 390px;
+        position: absolute;
+        top: 190px;
+        left: -100px;
+    }
+    .homeHero_rounds {
+        height: 60px;
+        position: absolute;
+        bottom: -135px;
+        right: 0px;
+    }
+}
+@media(max-width: 800px) {
+    .homeHero_rounds {
+        height: 60px;
+        position: absolute;
+        bottom: -135px;
+        right: -30px;
+    }
+}
+@media(max-width: 600px) {
+    .homeHero__content p {
+        width: 468px;
+        text-align: center;
+    }
+    .homeHero__arrow {
+        width: 370px;
+        position: absolute;
+        top: 190px;
+        left: -140px;
+    }
+
+}
+@media(max-width: 550px) {
+    .homeHero h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #fff;
+        width: 311px;
+    }
+    .homeHero__content p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        width: 311px;
+    }
+    .homeHero_rounds {
+        display: none;
+    }
+    .homeHero__arrow {
+        width: 370px;
+        position: absolute;
+        top: 240px;
+        left: -345px;
+    }
+    .homeHero__arrow {
+        width: 447px;
+    }
+}

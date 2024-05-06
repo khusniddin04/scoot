@@ -1,0 +1,201 @@
+.reverse_offer {
+  margin: 120px 0;
+}
+.reverse_offer__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.reverse_offer_user_img {
+  border-radius: 50%;
+}
+.reverse_offer__imgs {
+  position: relative;
+}
+.reverse_offer_round {
+  position: absolute;
+  left: -150px;
+  top: 0;
+}
+.reverse_offer_line {
+  position: absolute;
+  top: 0;
+  left: -140px;
+}
+.reverse_offer__content h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #495567;
+  margin-bottom: 24px;
+}
+.reverse_offer__content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 167%;
+  color: #939caa;
+  margin-bottom: 40px;
+}
+.reverse_offer__content button {
+  width: 180px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fff;
+  background-color: #fcb72b;
+  border: none;
+  cursor: pointer;
+}
+.reverse_offer__content button:hover {
+  width: 180px;
+  height: 53px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fcb72b;
+  background-color: #fff;
+  border: 3px solid #fcb72b;
+}
+@media (max-width: 1405px) {
+  .reverse_offer_round {
+    position: absolute;
+    left: -130px;
+    top: 0;
+  }
+  .reverse_offer__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  .reverse_offer_user_img {
+    border-radius: 50%;
+    margin-left: 70px;
+  }
+}
+@media (max-width: 1370px) {
+  .reverse_offer_round {
+    position: absolute;
+    left: -110px;
+    top: 0;
+  }
+}
+@media (max-width: 1310px) {
+  .reverse_offer_round {
+    position: absolute;
+    left: -90px;
+    top: 0;
+  }
+}
+@media (max-width: 1250px) {
+  .reverse_offer_round {
+    left: -50px;
+  }
+  .reverse_offer_line {
+    position: absolute;
+    top: 0;
+    left: -80px;
+  }
+}
+@media (max-width: 1170px) {
+  .reverse_offer__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+  .reverse_offer_user_img {
+    border-radius: 50%;
+    margin-left: 0px;
+  }
+  .reverse_offer__imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reverse_offer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .reverse_offer__content p {
+    text-align: center;
+    width: 573px;
+  }
+  .reverse_offer__content h2 {
+    width: 457px;
+    text-align: center;
+  }
+  .reverse_offer_round {
+    left: -27px;
+  }
+  .reverse_offer_line {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+  }
+}
+@media (max-width: 900px) {
+  .reverse_offer_user_img {
+    width: 445px;
+    height: 445px;
+  }
+  .reverse_offer_line {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 400px;
+  }
+}
+@media (max-width: 770px) {
+  .reverse_offer_round {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .reverse_offer__content p {
+    width: 311px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color: #939caa;
+  }
+  .reverse_offer__content h2 {
+    width: 311px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #495567;
+  }
+  .reverse_offer_line {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+}
+@media(max-width: 580px) {
+    .reverse_offer_user_img {
+        width: 311px;
+        height: 311px;
+      }
+      .reverse_offer_line {
+        position: absolute;
+        top: 0;
+        left: -10px;
+        width: 333px;
+    }
+}

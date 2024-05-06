@@ -1,0 +1,68 @@
+.aboutpage .offer_line {
+  position: absolute;
+  left: -130px;
+  bottom: 25px;
+  z-index: 11;
+  height: 167px;
+}
+.aboutpage .offer__content button {
+  display: none;
+}
+.aboutpage .reverse_offer__content button {
+  display: none;
+}
+@media(max-width: 1550px) {
+  .aboutpage .offer_line {
+    width: 710px;
+    position: absolute;
+    left: -130px;
+    bottom: 25px;
+    z-index: 11;
+    height: 167px;
+  }
+}
+@media(max-width: 1250px) {
+  .aboutpage .offer_line {
+    width: 680px;
+  }
+}
+@media (max-width: 1195px) {
+  .aboutpage .offer_line {
+    position: absolute;
+    left: 308px;
+    bottom: 25px;
+    z-index: 11;
+    width: 575px;
+    height: 140px;
+  }
+}
+@media (max-width: 1050px) {
+  .aboutpage .offer_line {
+    width: 519px;
+    height: 110px;
+    position: absolute;
+    left: 130px;
+    bottom: 25px;
+    z-index: 11;
+}
+}
+@media(max-width: 500px) {
+
+    .aboutpage .responsive_img {
+      display: flex;
+      position: absolute;
+      height: 123px;
+      width: 327px;
+      bottom: 3px;
+  }
+}
+@media(max-width: 480px) {
+  .aboutpage .responsive_img {
+    display: flex;
+    position: absolute;
+    height: 140px;
+    width: 314px;
+    bottom: 55px;
+    z-index: 5;
+}
+}

@@ -1,0 +1,135 @@
+.footer__top {
+  padding: 102px 0;
+  background: #495567;
+}
+.footer__top__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__top__wrapper h1 {
+  max-width: 415px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+.footer__imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.footer__bottom {
+  background: #333a44;
+  padding: 32px 0;
+}
+.footer__bottom__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.footer__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.footer__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.footer_icon {
+    width: 24px;
+    height: 24px;
+    color: #FCB72B;
+}
+.footer_icon:hover {
+    cursor: pointer;
+    color: #E5ECF4;
+}
+.stores {
+  width: 160px;
+  height: 56px;
+}
+.footer_title {
+    font-size: 15px;
+    color: #939caa;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.2s;
+}
+.footer_title:hover {
+    font-size: 15px;
+    color: #fcb72b;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.2s;
+}
+@media (max-width: 800px) {
+  .footer__top__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .footer__top__wrapper h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .footer__bottom__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+  }
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer__nav nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .footer__top__wrapper h1 {
+    max-width: 415px;
+    width: 100%;
+    font-size: 35px;
+    line-height: 100%;
+  }
+  .stores {
+    width: 120px;
+    height: 42px;
+  }
+}
+@media (max-width: 375px) {
+  .footer__top__wrapper h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+  }
+  .footer__top {
+    padding: 88px 0;
+  }
+  .stores {
+    width: 113px;
+    height: 40px;
+  }
+}
