@@ -14,10 +14,15 @@ function Header() {
     close.current.classList.add("close");
     x_btn.current.classList.add("exchange");
   }
-  function closeSidebar() {
+  function closeSide() {
     modal.current.classList.remove("modal_open");
     x_btn.current.classList.remove("exchange");
     close.current.classList.remove("close");
+  }
+  function closeSidebar() {
+    modal.current.classList.remove("modal_open")
+    close.current.classList.remove("close");
+    x_btn.current.classList.remove("exchange");
   }
   return (
     <header className="header">
@@ -25,7 +30,7 @@ function Header() {
         <div className="header__wrapepr">
           <div className="header__left">
             {/* Yon paneli | */}
-            <div ref={modal} className="modal_bg">
+            <div onClick={closeSide} ref={modal} className="modal_bg">
               <div className="modal">
                 <ul>
                   <li>
